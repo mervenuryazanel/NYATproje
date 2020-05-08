@@ -52,7 +52,8 @@ public class AgArayuzu {
     
     
     void Ekran(){
-        
+        DBC db = new DBC();
+        db.dbConnection();
         int modSecim;
         char secim;
         System.out.println("Menuyu goruntulemek icin kullanici bilgilerinizi giriniz");
