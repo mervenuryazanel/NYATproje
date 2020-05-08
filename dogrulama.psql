@@ -1,0 +1,16 @@
+create database "dogrulama";
+
+create schema "public";
+
+create table "public"."kullanici" (
+"kullaniciAdi" char(20) not null,
+"sifre" char(4) not null
+)
+
+
+insert into "public"."kullanici"
+("kullaniciAdi", "sifre")
+values 
+('merve', '0123');
+
+
